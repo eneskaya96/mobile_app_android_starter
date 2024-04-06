@@ -1,0 +1,44 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file
+local.properties
+
+# IDE settings
+.idea/
+*.iml
+*.iws
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures directory
+captures/
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native libraries
+*.so
+
+# Cache files
+*/build
+
+# Other files to ignore
+*.log
+.DS_Store
+
+# APK and AAB files
+*.apk
+*.aab
+
+# Encrypted files
+*.gpg
+
+# Local `captures` directory
+captures/
+
+gradle.properties
+secret_keys.xml
