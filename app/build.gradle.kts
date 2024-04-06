@@ -21,6 +21,7 @@ android {
         buildConfigField("String", "WEB_VIEW_APP_URL", "\"${properties["WEB_VIEW_APP_URL"]}\"")
         buildConfigField("String", "APPSFLYER_DEV_KEY", "\"${properties["APPSFLYER_DEV_KEY"]}\"")
         buildConfigField("String", "ADMOB_BANNER_ID", "\"${properties["ADMOB_BANNER_ID"]}\"")
+        buildConfigField("String", "ADMOB_REWARDED_ADD_ID", "\"${properties["ADMOB_REWARDED_ADD_ID"]}\"")
 
         manifestPlaceholders["ADMOB_APP_ID"] = project.properties["ADMOB_APP_ID"] ?: "defaultKey"
         manifestPlaceholders["APPSFLYER_DEV_KEY"] = project.properties["APPSFLYER_DEV_KEY"] ?: "defaultKey"
